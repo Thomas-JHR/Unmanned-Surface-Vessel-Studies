@@ -6,7 +6,7 @@ A Master of Engineering Academic Project:
   
   - MATLAB code to simulate the control system to perform the infinite loop path following 
   
-  - requirements for the trajectory tracking simulation:
+  - Requirements for the trajectory tracking simulation:
   
     -  MATLAB 2020a later 
     
@@ -50,12 +50,46 @@ A Master of Engineering Academic Project:
     
   - Heron M300 is assumed to mitigate the heave, pitch, and roll response of the payload tray when the Heron M300 performs tasks on the <br/>
  
-    water surface for simplifying system identification
+    water surface for simplifying system identification.
 
 <p align="center">
  <img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Images/clearpath-robotics-heron-unmanned-surface-vessel-3d-model-max-obj-fbx.jpg width=65% height=65%>
 </p>
 
 # Controller design
+
+  -  Seven proposed controllers are designed to evaluate the tracking performance whatever the environmental distubances exist.
+ 
+  -  Model-based controllers are briefly presented below and please refer to the code in details.
+ 
+  -  Learning-based controllers are showed in the code section to explain more details.
+ 
+<p align="center">
+ <img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Images/PID.jpg width=65% height=65%>
+</p>
+
+<p align="center">
+ <img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Images/PD%2BFBL.jpg width=65% height=65%>
+</p>
+
+<p align="center">
+ <img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Images/MPC-based.jpg width=65% height=65%>
+</p>
+
 # Linear EKF
-# wind and wave distubances
+
+  - For simplicity, the Linear EKF is presented as the main estimator based on the vessel system states or poses 
+  
+  - The linear EKF is acceptable in the project to create a guidance system for the path tracking task and estimate the vessel poses by filtering <br/>
+
+    sensors noise and a basic estimation algorithm
+    
+  - In the reality for robot localization, the Heron vessel observes the vessel states from its proprioceptive sensors and carries out waypoint <br/> 
+ 
+    navigation for the path following. 
+
+# Environmental disturbances
+
+  - Wind and wave are two major sources to disturb the route tracking behaviour in the project
+
+  - The raw wind and wave data by the andom walk algorithm  
