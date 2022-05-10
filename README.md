@@ -19,7 +19,7 @@ A Master of Engineering Academic Project:
   - Problem statement
   - USV modelling
   - Controller design
-      - Feedback linearization as inverse dynamics (FBL)
+      - [Feedback linearization as inverse dynamics (FBL)](https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Feedback%20Linearization.md)
       - PD+FBL controller 
       - Nonlinear PID controller
       - Linear Model Perdictive Controller(MPC)+FBL
