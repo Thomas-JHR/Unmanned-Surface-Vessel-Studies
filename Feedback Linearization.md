@@ -13,7 +13,8 @@ The next step is to construct the second order linear system as
 </p> 
   
 Based on the equation, it can be easily depicted that the linear control input is defined as an acceleration vector state of the vessel in the global frame  
-```
+ 
+```Matlab
 A_FSF = [0 1 0 0 0 0;
         0 0 0 0 0 0;
         0 0 0 1 0 0;
