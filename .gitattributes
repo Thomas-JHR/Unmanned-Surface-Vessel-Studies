@@ -1,2 +1,2 @@
-*.matlab linguist-language=MATLAB
+*.md linguist-language=MATLAB
 *.tex linguist-language=Latex
