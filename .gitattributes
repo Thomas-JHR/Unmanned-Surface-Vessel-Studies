@@ -1,2 +1,2 @@
-*.matlab linguist-detectable=true
-*.tex linguist-detectable=false 
+*.matlab linguist-language = MATLAB
+*.tex linguist-language Latex
