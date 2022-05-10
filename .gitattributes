@@ -1,2 +1,2 @@
-*.matlab linguist-language = MATLAB
-*.tex linguist-language Latex
+*.matlab linguist-language=MATLAB
+*.tex linguist-language=Latex
