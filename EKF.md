@@ -12,7 +12,7 @@ First of all, let's define the EKF-localization states as follows:
 <img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/ekf1.svg>
 </p><p align="center">
 
-```f(q_k,τ_k)``` is a nonlinear vector field. ```ν_k``` and ```w_k``` are white input noise processes and measurement white senor noise, respectively. The filter system involves the process noise covariance weight matrix Q_EKF and pose measurement noise covariance matrix R_EKF described as
+```f(q_k,τ_k)``` is a nonlinear vector field. ```ν_k``` and ```w_k``` are white input noise processes and measurement white senor noise, respectively. The filter system involves the process noise covariance weight matrix ```Q_EKF``` and pose measurement noise covariance matrix ```R_EKF``` described as
  
 <p align="center">
 <img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/variance_ekf.svg>
