@@ -1,5 +1,7 @@
 # Linear Extended Kalman Filter
 
+ - The linear EKF was designed based on the ship model for vessel localization problem raised in [[4]](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119994138). 
+
  - This function describes filtration and poeses estimation in vessel dynamics and kinematics systems. 
  
  - Nonlinear observers and estimators have to be initially modeled such that the vessel model is observable and controllable. 
