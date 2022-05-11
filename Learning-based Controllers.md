@@ -1,6 +1,6 @@
 # Gaussian Process Regression
 
-A Gaussian Process Regression approach, regarded as non-parametric Bayesian regression, is proposed to combine either the PD controller or the hybrid MPC to enhance tracking performance under environmental forces. The basic principle of the GPR approach is generate a prediction function by observed dataset training, and predict outputs as close as possible based on the new dataset and the function learning in statistical learning theory [Machine]. To understand some basics behind the learning tool, this section involves some backgrounds for the GPR algorithm to make prediction of the future inputs and uncertainty learning implementation. The proposed GPR solution was already applied in the hydraulic manipulator design for improving desired angle tracking performance in [Jack], and the Heron M300 vessel model takes this method to test if the vessel can overcome the disturbances.
+A Gaussian Process Regression approach, regarded as non-parametric Bayesian regression, is proposed to combine either the PD controller or the hybrid MPC to enhance tracking performance under environmental forces. The basic principle of the GPR approach is generate a prediction function by observed dataset training, and predict outputs as close as possible based on the new dataset and the function learning in statistical learning theory [[1]](http://gaussianprocess.org/gpml/). To understand some basics behind the learning tool, this section involves some backgrounds for the GPR algorithm to make prediction of the future inputs and uncertainty learning implementation. The proposed GPR solution was already applied in the hydraulic manipulator design for improving desired angle tracking performance in [[2]](https://ieeexplore.ieee.org/document/9636755), and the Heron M300 vessel model takes this method to test if the vessel can overcome the disturbances.
 
 Let ```X``` be the observed training dataset, ```X*``` be the testing dataset, and ```y``` defined as a label or an output vector. We introduce a kernel function or covariance function of the GPR, also known as squared exponential function between the training dataset and testing dataset. It can be described as
 
@@ -205,7 +205,7 @@ q_hat_GPMPC(:,1) = q_guess + transpose(aa); % set the initial guess for estimato
 u_m_GPMPC = zeros(3,N);
 z_m_GPMPC = zeros(6,N);
 delta_z_GPMPC = zeros(nr,N);
-GP+MPC parameters initialization
+
 %% GPR variables define
 a_GPMPC = zeros(9,N+p); % [q;qdot;a_b]; 
 g_function_GPMPC = zeros(6,N+p);
