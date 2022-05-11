@@ -1,8 +1,8 @@
 # References
 
-[[1]](https://ieeexplore.ieee.org/document/9636755) J. Caldwell and J. Marshall, "Towards Efficient Learning-Based Model Predictive Control via Feedback Linearization and Gaussian Process Regression," in International Conference on Intelligent Robots and Systems (IROS), Prague, 2021. 
+[[1]](http://gaussianprocess.org/gpml/) C. E. Rasmussen and C. K. I. Williams, Gaussian Processes for Machine Learning, Cambridge: MIT Press, 2006.
 
-[[2]](http://gaussianprocess.org/gpml/) C. E. Rasmussen and C. K. I. Williams, Gaussian Processes for Machine Learning, Cambridge: MIT Press, 2006.
+[[2]](https://ieeexplore.ieee.org/document/9636755) J. Caldwell and J. Marshall, "Towards Efficient Learning-Based Model Predictive Control via Feedback Linearization and Gaussian Process Regression," in International Conference on Intelligent Robots and Systems (IROS), Prague, 2021. 
 
 [[3]](https://ieeexplore.ieee.org/document/6907444) C. J. Ostafew, A. P. Schoellig and T. D. Barfoot, "Learning-based nonlinear model predictive control to improve vision-based mobile robot path-tracking in challenging outdoor environments," in 2014 IEEE International Conference on Robotics and Automation (ICRA), Hong Kong, 2014. 
 
