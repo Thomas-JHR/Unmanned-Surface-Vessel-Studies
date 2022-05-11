@@ -80,6 +80,25 @@ Afterwards, the second-order linear wave transfer function is approximated to es
 
 
 ```matlab
+%% Specify the wave information
+Hs = [8;9.5;8.45]; % define the significant height m
+omega_o = 0.8; % angular peak frequency rad/s
+omega_max = 3; % angular maximum frequency rad/s
+omega_range = 0.0001:t:omega_max;% define a wave sequence wrt period
+lambda_wave = 0.2;
+
+%% Generate the wave model in X, Y, and N
+S1 = torset_spec(Hs(1),omega_o,omega_range);
+S2 = torset_spec(Hs(2),omega_o,omega_range);
+S3 = torset_spec(Hs(3),omega_o,omega_range);
+%% Generate the wave model in X, Y, and N
+
+omega = repmat(omega_range,1,floor(N/length(omega_range)));
+omega = cat(2,omega,omega(1,1:N-floor(N/length(omega_range))*length(omega_range)));
+PSD_wave = [S1 S2 S3]'; % Construct the wave model during omega range
+PSD_wave = repmat(PSD_wave,1,floor(N/length(omega_range))); % Reconstruct the wave model to simulation time duration 
+PSD_wave = cat(2,PSD_wave,PSD_wave(:,1:N-floor(N/length(omega_range))*length(omega_range)));
+tao_wave = zeros(3,N);
 
 function tao_wave = ExwaveForce(Wave,beta, omega_peak, lambda_wave,omega_range, q, Drift)
 
