@@ -1,6 +1,6 @@
 # Linear MPC+FBL
 
-MPC-based controllers for the Heron vessel were developed based on the the controllers development of the hydraulic manipulator in [^1]. MPC is a methdology attrempts to optimize the system behaviour over same prediction horizon ```p``` as a discrete number of time steps in the future from the current state ```k```. Suppose that ```p``` is an array ```[1 2 ... p]``` and define a cost function as
+MPC-based controllers for the Heron vessel were developed based on the the controllers development of the hydraulic manipulator in [[1]](https://ieeexplore.ieee.org/document/9636755) and the husky robot operating in challenging terrain in [[3]](https://ieeexplore.ieee.org/document/6907444). MPC is a methdology attrempts to optimize the system behaviour over same prediction horizon ```p``` as a discrete number of time steps in the future from the current state ```k```. Suppose that ```p``` is an array ```[1 2 ... p]``` and define a cost function as
 
   <p align="center">
 <img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/MPC1.svg>
