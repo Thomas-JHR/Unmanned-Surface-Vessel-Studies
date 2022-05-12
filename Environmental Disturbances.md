@@ -22,7 +22,7 @@ end
 ```
 # Wind
 
-A wind feed-forward controller designed from is modeled to show how the wind resistance data affects the vessel trajectories. A wind disturbance forces vector  acting on the vessel in the body-fixed frame are considered to be the final output of the controller.```[V_w beta_w]```created by the random walk is assumed to be a true wind velocity and angle vector. The procedure to derive the wind forces is shown below.
+A wind feed-forward controller designed from [[4]](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119994138) is modeled to show how the wind resistance data affects the vessel trajectories. A wind disturbance forces vector  acting on the vessel in the body-fixed frame are considered to be the final output of the controller.```[V_w beta_w]```created by the random walk is assumed to be a true wind velocity and angle vector. The procedure to derive the wind forces is shown below.
 
 </p><p align="center">
  <img src= https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/Wind1.svg>
@@ -59,7 +59,7 @@ end
 
 # Wave
 
-The wave disturbance is assumed to be created by the wind in this project so that the wind angle and direction can be directly used for generating wave spectrum energy. The wave model is designed based on the **Marine System Simulator** library originally created by Thor Fossen.
+The wave disturbance is assumed to be created by the wind in this project so that the wind angle and direction can be directly used for generating wave spectrum energy. The wave model is designed based on the **Marine System Simulator** library originally created by Thor Fossen in [[4]](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119994138).
 
 Wave-induced forces and moment is regarded as wave-frequency motion with zero mean oscillatory motionsThe significance height wave ```H_s```, the mean wave height of the one-third highest wave, can directly tell which sea states the vessel system is operating. This project assumes that a moderate wave disturbance is observed to exert to the Heron M300 vessel. A few wave parameters are defined as the wave model initialization. These include angular peak frequency ```ω_peak```, angular maximum frequency ```ω_max```, and wave sequence period ```ω```. Then, we use one of the wave spectrum approaches, Torsethaugen spectrum from curve-fitting experimental data from the North sea, to create empirical two peaked spectrum for swell (low frequency peak) and newly developed waves (high frequency peak) by ```torset_spec``` function in the library.
 
