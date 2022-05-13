@@ -94,6 +94,7 @@ A Master of Engineering Academic Project:
 
   - The raw wind and wave data by the andom walk algorithm  
 
+# Parts of preliminary simulation  
 <p align="center">
 <img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/Localmap.JPG>
 </p><p align="center">  
