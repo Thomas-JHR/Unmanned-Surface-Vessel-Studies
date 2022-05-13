@@ -93,3 +93,8 @@ A Master of Engineering Academic Project:
   - Wind and wave are two major sources to disturb the route tracking behaviour in the project
 
   - The raw wind and wave data by the andom walk algorithm  
+
+<p align="center">
+<img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/Localmap.JPG>
+</p><p align="center">  
+
