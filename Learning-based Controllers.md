@@ -30,7 +30,7 @@ Let ```X``` be the observed training dataset, ```X*``` be the testing dataset, a
   
 ```matlab
   
-  %% linear GPR+PD+FBL define
+ %% linear GPR+PD+FBL define
 q_GPFSF = zeros(6,N); % x y psi u v r
 tao_GPFSF = zeros(3,N);
 f_GPFSF = zeros(2,N);
@@ -177,7 +177,14 @@ Using GP_Training function to train the sample data and predict the output respo
 end
 toc  
 ```
+<p align="center">
+<img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/GPFSF.gif width=60% height=60%>
+</p><p align="center">  
 
+<p align="center">
+<img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/f_GPFSF.jpg width=60% height=60%>
+</p><p align="center">  
+ 
 ### GPR+HMPC+FBL
 
 <p align="center">
@@ -327,4 +334,13 @@ for i = 2:N
 end
 toc  
 ```
+ 
+<p align="center">
+<img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/GPMPC.gif width=60% height=60%>
+</p><p align="center">  
+
+<p align="center">
+<img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/f_GPMPC.jpg width=60% height=60%>
+</p><p align="center">  
+ 
   
