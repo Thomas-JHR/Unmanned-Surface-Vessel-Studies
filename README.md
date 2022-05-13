@@ -20,15 +20,15 @@ A Master of Engineering Academic Project:
   - USV modelling
   - Controller design
       - [Feedback linearization as inverse dynamics (FBL)](https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Feedback%20Linearization.md)
-      - PD+FBL controller 
-      - Nonlinear PID controller
-      - Linear Model Perdictive Controller(MPC)+FBL
-      - Nonlinear MPC
-      - Hybrid MPC+FBL
-      - GRR+PD+FBL controller
-      - GPR+Hybrid MPC+FBL controller
-  - Linear Extended Kalman Filter
-  - Environmental disturbances
+      - [PD+FBL controller](https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/State-based%20Controllers.md) 
+      - [Nonlinear PID controller](https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/State-based%20Controllers.md)
+      - [Linear Model Perdictive Controller(MPC)+FBL](https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/MPC-based%20Controllers.md)
+      - [Nonlinear MPC](https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/MPC-based%20Controllers.md)
+      - [Hybrid MPC+FBL](https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/MPC-based%20Controllers.md)
+      - [GRR+PD+FBL controller](https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Learning-based%20Controllers.md)
+      - [GPR+Hybrid MPC+FBL controller](https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Learning-based%20Controllers.md)
+  - [Linear Extended Kalman Filter](https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/EKF.md)
+  - [Environmental disturbances](https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Environmental%20Disturbances.md)
  
 # Problem statement
 
