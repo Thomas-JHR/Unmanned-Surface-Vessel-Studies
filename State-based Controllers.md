@@ -130,6 +130,9 @@ for i = 2:N
 end
 toc
 ```
+<p align="center">
+<img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/PD.gif width=60% height=60%>
+</p><p align="center">  
   
 # Nonlinear PID
   
@@ -297,9 +300,7 @@ toc
     
 end
 ```
-# MPC+FBL
-# Nonlinear MPC
-# HMPC+FBL
-# GPR+PD+FBL
-# GPR+MPC+FBL
-
+<p align="center">
+<img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/PID.gif width=60% height=60%>
+</p><p align="center">  
+  
