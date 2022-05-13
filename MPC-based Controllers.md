@@ -149,9 +149,15 @@ for i = 2:N
     tao_wind(:,i) = ExwindForce(beta_w(1,i),V_w(1,i),q_FSF(4:6,i),q_FSF(3,i),rho_air,L);
     %tao_MPC(:,i) = tao_MPC(:,i) - tao_wind(:,i) - tao_wave(:,i);
 end
-toc  
-  
+toc   
 ```
+<p align="center">
+<img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/MPC.gif width=60% height=60%>
+</p><p align="center">  
+
+<p align="center">
+<img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/f_MPC.jpg width=60% height=60%>
+</p><p align="center"> 
   
 # Nonlinear MPC
   
@@ -243,7 +249,14 @@ for i = 2:N
     %tao_NMPC(:,i) = tao_NMPC(:,i) - tao_wind(:,i) - tao_wave(:,i);
 end   
 ```
+<p align="center">
+<img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/NMPC.gif width=60% height=60%>
+</p><p align="center">  
 
+<p align="center">
+<img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/f_NMPC.jpg width=60% height=60%>
+</p><p align="center"> 
+  
 # Hybrid MPC+FBL
   
 <p align="center">
@@ -369,7 +382,13 @@ for i = 2:N
 end
 toc    
 ```  
-  
+<p align="center">
+<img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/HMPC.gif width=60% height=60%>
+</p><p align="center">  
+
+<p align="center">
+<img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/f_HMPC.jpg width=60% height=60%>
+</p><p align="center">   
   
   
   
