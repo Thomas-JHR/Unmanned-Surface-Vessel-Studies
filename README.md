@@ -102,9 +102,13 @@ A Master of Engineering Academic Project:
 
   - Animation results without the disturbances are shown each of ```controllers.md``` files. 
   
-  - If you are intersted in the path following performances under the distubances, please download the code with MSS and GP packages and have fun with them! 
+  - If you are intersted in the path following performances under the distubances, please download the code with MSS and <br/> 
+    
+    GP packages and have fun with them! 
   
-  - Detailed statistical data including RMSE and maximum distance errors is not shown in this repository. Please drop me an email for the PDF report version.
+  - Detailed statistical data including RMSE and maximum distance errors is not shown in this repository. Please drop me an email for the PDF <br/> 
+  
+    report version.
   
   - Thruster force control is not perfectly presented due to excessive force outputs of PID, NMP, and GPMPC_FBL controllers at the beginning, <br/> 
   
