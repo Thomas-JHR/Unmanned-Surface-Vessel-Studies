@@ -1,1 +1,2 @@
 *.mlx linguist-detectable=true
+*.mlx linguist-language=matlab
