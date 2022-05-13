@@ -130,8 +130,14 @@ for i = 2:N
 end
 toc
 ```
+The animation of the controled system mainly presented by the PD_FBL controller, as well as the thruster force inputs, is shown below to describe the path following performance.
+  
 <p align="center">
 <img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/PD.gif width=60% height=60%>
+</p><p align="center">  
+
+<p align="center">
+<img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/f_FSF.jpg width=60% height=60%>
 </p><p align="center">  
   
 # Nonlinear PID
@@ -304,3 +310,6 @@ end
 <img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/PID.gif width=60% height=60%>
 </p><p align="center">  
   
+<p align="center">
+<img src=https://github.com/Thomas-JHR/Unmanned-Surface-Vessel-Studies/blob/main/Tex/GIF/f_PID.jpg width=60% height=60%>
+</p><p align="center">    
