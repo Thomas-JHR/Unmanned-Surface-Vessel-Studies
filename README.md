@@ -1,5 +1,7 @@
 # Unmanned-Surface-Vessel-Studies
 
+***This project is still under construction and update progress, and includes details explanation. Please check the repository regularly for some updates***
+
 A Master of Engineering Academic Project:
 
   - Guide you to understand surface vessel modelling, model-based and learning-based controllers design, and environmental distubances modelling 
